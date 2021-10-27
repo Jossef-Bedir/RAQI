@@ -1,0 +1,297 @@
+*{
+    margin: 0; padding: 0;
+}
+ 
+body{
+    font-family: 'Rubik';
+}
+
+
+header{
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)) , url(../PICS/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 225px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.main-nav{
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: -5px;
+}
+
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.main-nav li a:hover{
+    color: thistle;
+    text-decoration: underline;
+}
+
+.hero-box{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: 400;  
+}
+    
+.btn{
+    border: solid 1px gold;
+    margin-right: 15px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    color: gold;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: maroon;
+    background-color: gold;
+}
+
+h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    word-spacing: 5px; 
+    text-align: center;
+}
+
+h2::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: goldenrod;
+    margin: 15px auto;
+}
+
+.products-text{
+    font-size: 1.3rem;
+    width: 50%;
+    margin-left: 25%;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.Wear{
+    text-align: center;
+}
+
+
+.Wear h3{
+    color: rosybrown ;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.Wear p{
+    margin-bottom: 10%;
+
+    margin-left: 5%;
+    text-align: center;
+
+}
+
+.Wear img{
+    height: 120px;
+    width: fit-content;
+    
+}
+
+.Wear img:hover{
+    transform: scale(2);
+}
+
+#work{
+    background-color: #ddd;
+}
+
+.work-text{
+    font-size: 1.3rem;
+    width: 50%;
+    margin-left: 25%;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.online-method{
+    text-align: left;
+    padding-right: 2%;
+}
+
+.offline-method{
+    text-align: left;
+    padding-left: 2%;
+    
+}
+
+.step{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.step span{
+    border: solid 2px goldenrod;
+    margin-right: 20px;
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    word-spacing: 5px; 
+    text-align: center;
+}
+
+h4::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: grey;
+    margin: 15px auto;
+}
+
+.city img{
+    width: 100%;  
+    margin-bottom: 10px;
+  }
+
+  .city h3{
+    text-align: center;  
+    margin-bottom: 10px;
+  }
+
+  .city-info{
+    margin-bottom: 10px;
+}
+
+.city-info i{
+    color: orange;
+    margin-right: 10px;
+}
+
+
+input[type=text] , input[type=email] , select, textarea {
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+input[type=checkbox]{
+    margin-bottom: 15px;
+}
+
+button{
+    border: solid 2px goldenrod;
+    margin-right: 15px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: maroon;
+    background-color: white;
+}
+
+button:hover{
+    color: white;
+    background-color: maroon;  
+}
+
+
+
+footer{
+    padding: 50px 100px;
+    background-color: #333;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-nav{
+    list-style: none;
+}
+
+.footer-nav li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer-nav li a{
+        color: white;
+    text-decoration: none;
+}
+
+.footer-nav li :hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+.social-nav{
+    list-style: none;
+    float: right;
+}
+
+.social-nav li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-nav li a{
+        color: white;
+    text-decoration: none;
+}
+
+.socil-nav li a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+footer span{
+    font-style: italic;
+    font-weight: bolder;
+    color: grey;
+}
